@@ -1,0 +1,72 @@
+.App{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-image: url("https://img.freepik.com/free-vector/vintage-microphone-with-sound-wave-icon_1308-49599.jpg?w=740&t=st=1677006379~exp=1677006979~hmac=2eada50cf20c04067d0803a6ea2a7ede35c538ec0d4abe98b29f997decc8768a");
+}
+.App .content{
+   margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+
+}
+.App button{
+    top: 0;
+    z-index: 20;
+    position: sticky;
+    width: 200px;
+    margin: auto;
+    background-color: blue;
+    color: aliceblue;
+    padding: 65px ;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.App .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.App h1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.App img{
+    width: 100px;
+    height: 100px;
+    border: solid 10px white;
+}
+.App .player{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.player h4{
+    background: white;
+    color: black;
+    border-radius: 50px;
+    padding: 20px;
+    line-height: 20px;
+}
+.player audio{
+    width: 250px;
+}
